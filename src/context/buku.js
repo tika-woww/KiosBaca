@@ -9,7 +9,7 @@ export const books = [
     reviews: 1240,
     pages: 312,
     sold: 1240,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Seorang arsiparis menemukan surat tanpa nama di balik rak koran lama Batavia. Setiap surat membawanya satu langkah lebih dekat ke cerita yang sengaja dilupakan kota.",
     sample:
@@ -25,7 +25,7 @@ export const books = [
     reviews: 980,
     pages: 200,
     sold: 980,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Cara membangun rutinitas lewat langkah yang sangat kecil, lengkap dengan lembar latihan mingguan.",
     sample:
@@ -41,7 +41,7 @@ export const books = [
     reviews: 410,
     pages: 280,
     sold: 410,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Pengantar fisika modern tanpa rumus rumit, dijelaskan lewat kejadian sehari-hari.",
     sample:
@@ -57,7 +57,7 @@ export const books = [
     reviews: 215,
     pages: 180,
     sold: 330,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Kumpulan cerpen tentang pedagang, pengamen, dan pelanggan yang bertemu setelah matahari terbenam.",
     sample:
@@ -73,7 +73,7 @@ export const books = [
     reviews: 530,
     pages: 340,
     sold: 610,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Petualangan tiga bersaudara melintasi perairan timur Nusantara untuk mencari kapal ayah mereka.",
     sample:
@@ -89,7 +89,7 @@ export const books = [
     reviews: 760,
     pages: 260,
     sold: 820,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Panduan mengatur keuangan pribadi dengan memperlakukan waktu sebagai aset utama.",
     sample:
@@ -105,7 +105,7 @@ export const books = [
     reviews: 890,
     pages: 248,
     sold: 1105,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Dua orang asing saling berkirim surat karena kesalahan alamat, dan perlahan menyadari bahwa mereka menunggu balasan yang sama.",
     sample:
@@ -121,7 +121,7 @@ export const books = [
     reviews: 645,
     pages: 296,
     sold: 720,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Sepeninggal neneknya, Dita menemukan kunci tua yang tidak cocok dengan pintu mana pun di rumah itu, sampai ia menyadari rumahnya punya satu ruangan lagi.",
     sample:
@@ -137,7 +137,7 @@ export const books = [
     reviews: 380,
     pages: 420,
     sold: 355,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Menelusuri jalur pelayaran, pelabuhan, dan jaringan dagang kepulauan sebelum batas-batas negara modern ditarik.",
     sample:
@@ -153,7 +153,7 @@ export const books = [
     reviews: 1020,
     pages: 310,
     sold: 1180,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Pengantar pemrograman untuk pemula yang dibangun dari proyek kecil, mulai dari kalkulator sampai aplikasi catatan.",
     sample:
@@ -169,7 +169,7 @@ export const books = [
     reviews: 570,
     pages: 388,
     sold: 640,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Seorang pemuda desa mewarisi tugas menjaga gerbang yang sudah tertutup selama seratus tahun, tepat ketika gerbang itu mulai bergetar.",
     sample:
@@ -185,7 +185,7 @@ export const books = [
     reviews: 430,
     pages: 190,
     sold: 505,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Panduan berbasis penelitian untuk memperbaiki kualitas tidur, dari kebiasaan sore hari sampai pengaturan kamar.",
     sample:
@@ -201,7 +201,7 @@ export const books = [
     reviews: 1310,
     pages: 224,
     sold: 1420,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Koleksi masakan rumahan dari berbagai daerah, ditulis dengan takaran yang jelas dan cerita di balik setiap hidangan.",
     sample:
@@ -217,7 +217,7 @@ export const books = [
     reviews: 495,
     pages: 270,
     sold: 560,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Catatan jujur seorang pendiri tentang validasi ide, mencari pengguna pertama, dan kesalahan yang sebaiknya tidak kamu ulang.",
     sample:
@@ -233,7 +233,7 @@ export const books = [
     reviews: 720,
     pages: 168,
     sold: 890,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Kisah Bima, anak sepuluh tahun yang membangun teleskop dari barang bekas untuk membuktikan bahwa langit desanya layak dilihat.",
     sample:
@@ -249,7 +249,7 @@ export const books = [
     reviews: 305,
     pages: 204,
     sold: 410,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Seorang tukang pos pensiunan kembali mengayuh sepedanya untuk mengantar satu surat terakhir yang tertunda selama empat puluh tahun.",
     sample:
@@ -265,7 +265,7 @@ export const books = [
     reviews: 540,
     pages: 244,
     sold: 615,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Konsep ekonomi dijelaskan lewat obrolan sehari-hari di warung kopi, dari inflasi sampai kenapa harga gorengan naik.",
     sample:
@@ -281,7 +281,7 @@ export const books = [
     reviews: 465,
     pages: 300,
     sold: 480,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Perjalanan dari tata surya sampai galaksi terjauh, lengkap dengan ilustrasi dan penjelasan yang tidak menggurui.",
     sample:
@@ -297,7 +297,7 @@ export const books = [
     reviews: 260,
     pages: 328,
     sold: 295,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Tim peneliti muda memasuki hutan Kalimantan untuk mencari spesies langka, dan menemukan jejak ekspedisi yang hilang puluhan tahun lalu.",
     sample:
@@ -313,7 +313,7 @@ export const books = [
     reviews: 685,
     pages: 176,
     sold: 770,
-    coverImage: "././public/Cantik itu Luka.png",
+    coverImage: "/Cantik itu Luka.png",
     synopsis:
       "Latihan sederhana untuk mengalahkan halaman kosong, dari menulis lima menit sehari sampai menyelesaikan draf pertamamu.",
     sample:
