@@ -42,7 +42,7 @@ export default function Pembayaran(){
       }, 1200);
     };
 
-    // ---------- Tampilan setelah berhasil ----------
+    // tampilan saat sudah berhasil membayar
     if (order) {
       return (
         <div className="mx-auto max-w-md rounded-2xl border border-gray-200 bg-white p-6 text-center font-poppins">
@@ -77,7 +77,6 @@ export default function Pembayaran(){
       );
     }
 
-    // ---------- Tampilan pembayaran ----------
     return (
       <div className="font-poppins">
         <Link to="/cart" className="text-sm text-gray-500">
@@ -186,7 +185,6 @@ export default function Pembayaran(){
             </button>
           </form>
 
-          {/* Ringkasan pesanan */}
           <aside className="h-fit rounded-2xl border border-gray-200 bg-white p-5 text-sm">
             <h3 className="font-bold">Ringkasan pesanan</h3>
             <ul className="my-3 divide-y divide-gray-200">

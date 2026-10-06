@@ -9,12 +9,11 @@ export default function Navbar() {
   return (
     <div className="bg-[#F7F1E3] dark:bg-slate-900 text-[#3B2A0C] dark:text-slate-100">
       <nav className="px-6 md:px-12 py-4 flex justify-between items-center mx-auto max-w-[1120px] relative">
-        {/* Logo */}
         <Link to="/" className="font-bold text-2xl font-bricolage">
           KiosBaca
         </Link>
 
-        {/* Tombol Hamburger (Hanya muncul di Mobile / Layar Kecil) */}
+        {/* // hamburger */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden focus:outline-none p-1"
@@ -22,7 +21,7 @@ export default function Navbar() {
         >
           <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
             {isOpen ? (
-              // Icon X / Close
+              // Icon Close
               <path
                 fillRule="evenodd"
                 clipRule="evenodd"
@@ -37,12 +36,9 @@ export default function Navbar() {
             )}
           </svg>
         </button>
-
-        {/* Menu Navigasi */}
         <div
           className={`
             font-poppins text-sm
-            /* Tampilan Mobile: Dropdown / Absolute Menu */
             absolute md:static top-full left-0 w-full md:w-auto
             bg-[#F7F1E3] dark:bg-slate-900 md:bg-transparent
             flex-col md:flex-row flex gap-4 md:gap-6 items-start md:items-center

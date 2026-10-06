@@ -25,18 +25,17 @@ export default function BookDetail() {
   return (
     <div className="mx-auto max-w-[1120px] px-4 py-6 md:px-8">
       <div className="grid gap-8 md:grid-cols-[260px_1fr] items-start">
-        {/* Gambar Sampul */}
+
         <div className="flex justify-center md:justify-start">
           <div className="w-full max-w-[240px] md:max-w-[260px] aspect-[2/3] rounded-2xl overflow-hidden shadow-md">
             <img
-              src={"." + book.coverImage}
+              src={book.coverImage}
               alt={book.title}
               className="w-full h-full object-cover"
             />
           </div>
         </div>
 
-        {/* Informasi Detail Buku */}
         <div className="flex flex-col">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold font-bricolage leading-tight">
             {book.title}
@@ -59,7 +58,6 @@ export default function BookDetail() {
             {formatRupiah(book.price)}
           </div>
 
-          {/* Tombol Aksi */}
           <div className="mb-7 mt-3.5 flex flex-wrap gap-3">
             <button
               onClick={() => {
@@ -76,7 +74,6 @@ export default function BookDetail() {
             </button>
           </div>
 
-          {/* Baca Contoh Gratis */}
           <div className="mt-2">
             <h3 className="mb-2.5 text-base sm:text-[17px] font-bold font-poppins">
               Baca contoh gratis · Bab 1
@@ -86,7 +83,6 @@ export default function BookDetail() {
             </p>
           </div>
 
-          {/* Ulasan Pembaca */}
           <div className="mt-8">
             <h3 className="mb-3 text-base sm:text-[17px] font-bold font-poppins">
               Ulasan pembaca
