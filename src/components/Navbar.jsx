@@ -50,7 +50,6 @@ export default function Navbar() {
         >
           <Link
             to="/"
-            onClick={() => setIsOpen(false)}
             className="hover:opacity-75 w-full md:w-auto py-1"
           >
             Dashboard
@@ -58,7 +57,6 @@ export default function Navbar() {
 
           <Link
             to="/katalog"
-            onClick={() => setIsOpen(false)}
             className="hover:opacity-75 w-full md:w-auto py-1"
           >
             Katalog
@@ -66,7 +64,6 @@ export default function Navbar() {
 
           <Link
             to="/cart"
-            onClick={() => setIsOpen(false)}
             className="hover:opacity-75 w-full md:w-auto py-1 flex items-center justify-between md:justify-start"
           >
             <span>Keranjang</span>
